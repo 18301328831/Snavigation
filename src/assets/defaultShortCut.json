@@ -23,5 +23,10 @@
     "id": 4,
     "name": "通义千问",
     "url": "https://tongyi.aliyun.com/qianwen?spm=5176.28326591.0.0.40f73da2Hc21OU"
+  },
+  {
+    "id": 5,
+    "name": "Vercel",
+    "url": "https://vercel.com/"
   }
 ]
