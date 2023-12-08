@@ -6,37 +6,27 @@
   },
   {
     "id": 1,
-    "name": "地图",
-    "url": "https://ditu.amap.com/"
+    "name": "我的网盘",
+    "url": "https://www.donghaiming.com/start.html"
   },
   {
     "id": 2,
-    "name": "图片",
-    "url": "https://www.pexels.com/zh-cn/"
+    "name": "文件上传",
+    "url": "https://www.donghaiming.com/upload.html"
   },
   {
     "id": 3,
-    "name": "云盘",
-    "url": "https://www.aliyundrive.com/drive/"
+    "name": "企业邮箱",
+    "url": "https://qy.163.com/login/?from=ym"
   },
   {
     "id": 4,
-    "name": "Cloudflare",
-    "url": "https://dash.cloudflare.com/"
+    "name": "百度翻译",
+    "url": "https://fanyi.baidu.com/"
   },
   {
     "id": 5,
-    "name": "邮箱",
-    "url": "https://mail.qq.com/"
-  },
-  {
-    "id": 6,
-    "name": "GitHub",
-    "url": "https://github.com/"
-  },
-  {
-    "id": 7,
-    "name": "哔哩哔哩",
-    "url": "https://www.bilibili.com/"
+    "name": "通义千问",
+    "url": "https://tongyi.aliyun.com/qianwen?spm=5176.28326591.0.0.40f73da2Hc21OU"
   }
 ]
