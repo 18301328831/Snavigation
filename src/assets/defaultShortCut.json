@@ -11,22 +11,42 @@
   },
   {
     "id": 2,
+    "name": "立创EDA/hamboo",
+    "url": "https://pro.lceda.cn/editor#id=bf4dc73f16f742eea09ca19c08b267eb"
+  },
+  {
+    "id": 3,
+    "name": "立创开源广场",
+    "url": "https://oshwhub.com/explore"
+  },
+  {
+    "id": 4,
     "name": "企业邮箱",
     "url": "https://qy.163.com/login/?from=ym"
   },
   {
-    "id": 3,
-    "name": "百度翻译",
-    "url": "https://fanyi.baidu.com/"
+    "id": 5,
+    "name": "有道翻译",
+    "url": "https://fanyi.youdao.com/#/"
   },
   {
-    "id": 4,
+    "id": 6,
     "name": "通义千问",
     "url": "https://tongyi.aliyun.com/qianwen?spm=5176.28326591.0.0.40f73da2Hc21OU"
   },
   {
-    "id": 5,
+    "id": 7,
     "name": "Vercel",
     "url": "https://vercel.com/"
+  },
+  {
+    "id": 8,
+    "name": "Hamboo",
+    "url": "https://github.com/hambooooo/hamboo-rs"
+  },
+  {
+    "id": 9,
+    "name": "Emojiall",
+    "url": "https://www.emojiall.com/zh-hant/categories/H"
   }
 ]
