@@ -85,6 +85,7 @@ const getWeatherData = () => {
   // 上次获取天气数据的时间戳与当前时间的时间差（毫秒）
   const timeDifference = currentTime - lastWeatherData.lastFetchTime;
   // 是否超出 2 分钟
+  /** 停止获取天气数据
   if (timeDifference >= 2 * 60 * 1000) {
     getWeather()
       .then((res) => {
@@ -105,9 +106,12 @@ const getWeatherData = () => {
         weatherShow.value = false;
       });
   } else {
+  */
     console.log("从缓存中读取天气数据");
     weatherData.value = lastWeatherData.data;
+  /**
   }
+  */
 };
 
 // 监听配置发生改变
