@@ -42,12 +42,6 @@
       <span class="day">{{ timeData.day ?? "0" }}</span>
       <span class="weekday">{{ timeData.weekday ?? "星期八" }}</span>
     </div>
-    <div v-if="weatherShow && set.showWeather" class="weather">
-      <span class="status">{{ weatherData.condition ?? "N/A" }}</span>
-      <span class="temperature">{{ weatherData.temp ?? "N/A" }} ℃</span>
-      <span class="wind">{{ weatherData.windDir ?? "N/A" }}</span>
-      <span v-if="weatherData.windLevel" class="wind-level"> {{ weatherData.windLevel }} 级 </span>
-    </div>
   </div>
 </template>
 
@@ -55,7 +49,6 @@
 import { getCurrentTime } from "@/utils/timeTools";
 import { ref, onMounted, onBeforeUnmount, watch } from "vue";
 import { statusStore, setStore } from "@/stores";
-import { getWeather } from "@/api";
 
 const set = setStore();
 const status = statusStore();
@@ -65,7 +58,6 @@ const timeData = ref({});
 const timeInterval = ref(null);
 
 // 天气数据
-const weatherShow = ref(true);
 const weatherData = ref({});
 
 // 更新时间
@@ -76,14 +68,12 @@ const updateTimeData = () => {
 // 获取天气数据
 const getWeatherData = () => {
   // 当前时间戳
-  const currentTime = Date.now();
   // 上次获取天气数据的数据
   let lastWeatherData = JSON.parse(localStorage.getItem("lastWeatherData")) || {
     data: {},
     lastFetchTime: 0,
   };
   // 上次获取天气数据的时间戳与当前时间的时间差（毫秒）
-  const timeDifference = currentTime - lastWeatherData.lastFetchTime;
   // 是否超出 2 分钟
   /** 停止获取天气数据
   if (timeDifference >= 2 * 60 * 1000) {

@@ -10,16 +10,6 @@
     "url": "https://www.donghaiming.com/upload.html"
   },
   {
-    "id": 2,
-    "name": "立创EDA|hamboo",
-    "url": "https://pro.lceda.cn/editor#id=bf4dc73f16f742eea09ca19c08b267eb"
-  },
-  {
-    "id": 3,
-    "name": "立创开源广场",
-    "url": "https://oshwhub.com/explore"
-  },
-  {
     "id": 4,
     "name": "企业邮箱",
     "url": "https://qy.163.com/login/?from=ym"
@@ -30,14 +20,34 @@
     "url": "https://fanyi.youdao.com/#/"
   },
   {
+    "id": 12,
+    "name": "YouTube",
+    "url": "https://youtube.com/"
+  },
+  {
     "id": 6,
     "name": "通义千问",
     "url": "https://tongyi.aliyun.com/qianwen?spm=5176.28326591.0.0.40f73da2Hc21OU"
   },
   {
+    "id": 10,
+    "name": "ProcessOn",
+    "url": "https://www.processon.com/"
+  },
+  {
     "id": 7,
     "name": "Vercel",
     "url": "https://vercel.com/"
+  },
+  {
+    "id": 3,
+    "name": "立创开源广场",
+    "url": "https://oshwhub.com/explore"
+  },
+  {
+    "id": 2,
+    "name": "立创EDA|hamboo",
+    "url": "https://pro.lceda.cn/editor#id=bf4dc73f16f742eea09ca19c08b267eb"
   },
   {
     "id": 8,
@@ -48,5 +58,15 @@
     "id": 9,
     "name": "Emojiall",
     "url": "https://www.emojiall.com/zh-hant/categories/H"
+  },
+  {
+    "id": 9,
+    "name": "SVG编辑器",
+    "url": "http://zuohaotu.com/svg/"
+  },
+  {
+    "id": 11,
+    "name": "阿族OA系统",
+    "url": "https://oa.azudata.com/"
   }
 ]

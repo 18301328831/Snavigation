@@ -42,12 +42,6 @@ const setBgUrl = () => {
       bgUrl.value = `https://api.dujin.org/bing/${isMobile ? "m" : "1920"}.php`;
       break;
     }
-    case 2:
-      bgUrl.value = "https://api.aixiaowai.cn/gqapi/gqapi.php";
-      break;
-    case 3:
-      bgUrl.value = "https://api.aixiaowai.cn/api/api.php";
-      break;
     case 4:
       bgUrl.value = set.backgroundCustom;
       break;
